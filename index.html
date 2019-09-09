@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Start Tic Tac Toe!</title>
+</head>
+<body>
+  <h1>Let's play some Tic Tac Toe =D</h1>
+  <h2>2 out of 3 wins!</h2>
+  
+  <!-- Game board -->
+  <div>
+    <table id="game">
+      <tr id="first-row">
+        <td class='box'></td>
+        <td class='box'></td>
+        <td class='box'></td>
+      </tr>
+      <tr id="second-row">
+        <td class='box'></td>
+        <td class='box'></td>
+        <td class='box'></td>
+      </tr>
+      <tr id="third-row">
+        <td class='box'></td>
+        <td class='box'></td>
+        <td class='box'></td>
+      </tr>
+    </table>
+    
+    <!-- Buttons - Choose X/Choose O -->
+    <input type="button" id='X' value="Choose X" onclick="chooseX()">
+    <input type="button" id='O' value="Choose O" onclick="chooseO()">
+
+    <!-- Button - Reset - Go back to start screen -->
+    <a href="index.html" class="button">Reset the game!</a>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

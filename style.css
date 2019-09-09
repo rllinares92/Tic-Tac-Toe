@@ -1,0 +1,38 @@
+/* Game board styling */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 15vw;
+  height: 15vw;
+  display: inline-block;
+}
+
+#first-row td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#first-row td + td + td {
+  border-right: transparent;
+}
+
+#second-row td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#second-row td + td + td {
+  border-right: transparent;
+}
+
+#third-row td {  
+  border-right: 1px solid black;
+}
+
+#third-row td + td + td {  
+  border-right: transparent;
+}
