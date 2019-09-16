@@ -1,0 +1,22 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "tic tac toe",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rllinares92/Tic-Tac-Toe.git"
+  },
+  "author": "Rebekah Llinares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rllinares92/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/rllinares92/Tic-Tac-Toe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

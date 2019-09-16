@@ -18,6 +18,7 @@ function emptyArray() {
 function compX() {
   emptyArray();
   let randomNum = Math.floor(Math.random() * emptyGameArray.length);
+  console.log(randomNum)
   let compX = emptyGameArray[randomNum];
   if (!compX.textContent) {
     compX.textContent = 'X';
@@ -177,8 +178,7 @@ function checkWin() {
           alert('O wins!');
         };       
       } else {
-        gameArray.textContent
-
+        gameArray.textContent;
       }
     });
   });
